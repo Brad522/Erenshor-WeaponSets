@@ -13,7 +13,7 @@ namespace Erenshor_WeaponSets
     public class WeaponSets : BaseUnityPlugin
     {
         internal const string ModName = "WeaponSets";
-        internal const string ModVersion = "1.0.0";
+        internal const string ModVersion = "1.0.1";
         internal const string ModDescription = "Weapon Sets";
         internal const string Author = "Brad522";
         private const string ModGUID = Author + "." + ModName;
