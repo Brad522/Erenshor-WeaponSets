@@ -185,20 +185,6 @@ namespace Erenshor_WeaponSets
                         uiInit = true;
                     }
                 }
-
-                if (uiInit)
-                {
-                    if (playerInvUI.activeSelf)
-                    {
-                        if (!_tagGroup.activeSelf)
-                            _tagGroup.SetActive(true);
-                    } else
-                    {
-                        if (_tagGroup.activeSelf)
-                            _tagGroup.SetActive(false);
-                    }
-                }
-                
             }
 
             void CreateSetToggleUI(Transform parent)
@@ -232,6 +218,8 @@ namespace Erenshor_WeaponSets
                 _tagButtonSetB = CreateSetButton("2", (int)WeaponSetType.SetB, _tagGroup.transform);
 
                 UpdateToggleHighlight();
+
+                _tagGroup.SetActive(true);
             }
 
             private Button CreateSetButton(string label, int index, Transform parent)
