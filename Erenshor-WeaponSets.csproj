@@ -67,4 +67,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if "$(ConfigurationName)" == "Release" (
+    call "$(ProjectDir)Scripts\PostBuild.bat"
+)</PostBuildEvent>
+  </PropertyGroup>
 </Project>
