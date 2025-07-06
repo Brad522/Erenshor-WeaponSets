@@ -1,5 +1,5 @@
 # Erenshor-WeaponSets
-A mod for Erenshor that allows you to equip a second set of Primary and Offhand equipment and switch between the sets.
+A mod for Erenshor that allows you to equip a second set of primary and offhand equipment and switch between them at will.
 
 ## Features
 
